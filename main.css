@@ -62,3 +62,40 @@ span:hover > a {
   color: #800080;
   font-weight: bold;
 }
+
+.page-container {
+  max-width: 1200px;
+}
+
+#leftbar, #center, #rightbar {
+  float: left;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+footer {
+  clear: none;
+}
+
+#leftbar, #rightbar {
+  width: 25%;
+}
+
+#center {
+  width: 50%;
+  border: 1px solid #464646;
+  border-radius: 10px;
+}
+
+#center > div {
+  float: left;
+  width: 33%;
+}
+
+#topban + h2 {
+  text-align: center;
+}
+
